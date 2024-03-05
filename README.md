@@ -10,14 +10,24 @@ python main.py
 ```
 You will then be prompted to enter the value of n. Once you have entered your value, the program will begin calculations. After completing, the program will tell you how long it took to compute and that it was successful. The generated image file will be saved in the same directory as the program.
 
+## Samples
+- 100 x 100 spiral
+
+![100 x 100](samples/100x100.png)
+
+- 500 x 500 spiral
+
+![100 x 100](samples/500x500.png)
+
+- more in [samples folder](samples/)
 ## Requirements
 The following libraries are required to run this program:
 - PIL
 - Cython
-- time
 
 ## Acknowledgements
 This program was inspired by the mathematical work of Stanislaw Ulam, who discovered the spiral pattern of prime numbers in 1963. Special thanks to him for his groundbreaking research.
+https://en.wikipedia.org/wiki/Ulam_spiral
 
 ## License 
 This program is licensed under the MIT License.
